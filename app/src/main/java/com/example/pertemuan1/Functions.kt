@@ -10,3 +10,11 @@ fun withParameter(name: String) {
     println("===with parameter")
     println("hello $name")
 }
+
+
+//name argumen merupakan cara untuk memanggil fungsi dengan menyebutkan nama parameter
+fun withNamedArgument(name:String, age:Int) {
+    println()
+    println("===withnamedargument===")
+    println("Hello, $name: you are $age years old")
+}
