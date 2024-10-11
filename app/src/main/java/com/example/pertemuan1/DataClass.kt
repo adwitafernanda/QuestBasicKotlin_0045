@@ -10,11 +10,11 @@ data class DataClass(
 )
 
 fun main() {
-    val data = DataClass(1,"huda@gmail.com")
+    val data = DataClass(1,"Adit@gmail.com")
     println(data)
 
     //fungsi Equals
-    val data2 = DataClass(1,"ozan@gmail.com")
+    val data2 = DataClass(1,"rizal@gmail.com")
     println(data == data2)//false
 
     //fungsi copy
